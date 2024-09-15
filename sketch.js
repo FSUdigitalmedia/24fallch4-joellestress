@@ -1,8 +1,20 @@
+let y = 0;
+let speed = 3;
+let theFont;
+
+function preload() {
+    theFont = loadFont("assets/LOKICOLA.TTF");
+}
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1280, 720);
+  textFont(theFont);
+  textSize(150);
 }
 
 function draw() {
-  background(125);
-  circle(width/2, height/2, 40);
+  background("#FFFFFF");
+  text("CocaCola", width/2,height/2);
 }
+
+
