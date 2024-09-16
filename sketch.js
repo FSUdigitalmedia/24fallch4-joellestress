@@ -1,5 +1,5 @@
 let bottle;
-let y = 750;
+let y = 720;
 let speed = 0;
 let theFont;
 let backround;
